@@ -60,7 +60,7 @@ const Tasks = () => {
             fetchProjects();
             fetchInterns();
         }
-    }, [user.role]);
+    }, [user]);
 
     const handleChange = (e) => {
         setFormData({
